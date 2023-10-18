@@ -128,7 +128,7 @@
     justify-content: space-around;
     font-weight: 900px;
     margin-top: 150px;
-    margin-left: 60px;
+    margin-left: 50px;
 }
 
 .h1o {
@@ -145,7 +145,6 @@
     height: 32px;
     font-size: 22px;
     font-weight: 300;
-    margin-right: 614px;
     margin-bottom: 18px;
 }
 
@@ -161,3 +160,56 @@
     color: #fff;
 }
 
+/*** section2 ***/
+.section2 {
+    max-width:1920px;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 65px ;
+    padding-right: 65px;
+}
+
+#h12 {
+    color: #26262D;
+    font-weight: 900;
+    font-size: 50px;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#h32 {
+    color: #26262D;
+    font-stretch: expanded;
+    text-align: center;
+}
+
+.client-logo {
+    width: 397px;
+    height: 317px;
+    background-color: pink;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-basis: 400px;
+}   
+
+.img1 {
+    width: 96px;
+    height: 27px;
+    margin-bottom: 18px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 18px;
+}
+
+.btn4 {
+    background-color: #26262D;
+}
