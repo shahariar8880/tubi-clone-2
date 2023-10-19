@@ -213,3 +213,85 @@
 .btn4 {
     background-color: #26262D;
 }
+
+/***** section three *****/
+.section3 {
+    width: 818px;
+    height: 518px;
+    background-image: url(/asset/img/moviesbg.jpg);
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec3-h1 {
+    
+    margin-top: 30px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.sec3-p {
+    width: 698px;
+    height: 144px;
+    display: flex;
+    justify-content: center;
+}
+
+#ptag {
+    width: 339px;
+    height: 144px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: .5px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.client-logo2 {
+    width: 500px;
+    height: 72px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+.img2 {
+    width: 67px;
+    height: 48px;
+    margin: 12px;
+}
+
+
+.btn-sec-3 {
+    width: 572px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.btn5 {
+    background-color: #fff;
+    color: #26262D;
+}
