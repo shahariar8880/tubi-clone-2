@@ -287,11 +287,101 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    
 
 }
 
 .btn5 {
     background-color: #fff;
     color: #26262D;
+}
+
+/**** accordion ****/
+.faq {
+    max-width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 65px;
+    padding-left: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.h1faq {
+    width: 445px;
+    height: 32px;
+    margin-top: 60px;
+    margin-bottom: 22px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.accordion1 {
+    width: 698px;
+    height: 178px;
+    margin-top: -5px;
+    margin-left: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.accordion {
+    width: 339px;
+    height: 163px;
+}
+
+
+.accordion li {
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.accordion li label {
+    padding: 315px;
+    height: 24px;
+    padding: 12px;
+    margin-bottom: 9px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.accordion li label span {
+    width: 18px;
+    height: 18px;
+    transform: rotate(90deg);
+    font-size: 20px;
+    color: #333;
+    font-weight: 900;   
+}
+
+
+.accordion label + input[type="radio"]{
+    display: none;
+}
+
+.accordion .content {
+    padding: 12px;
+    line-height: 37px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-heigt 0.5s;
+}
+
+
+.accordion label + input[type="radio"]:checked + .content{
+    max-height: 200px;
 }
