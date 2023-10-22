@@ -340,7 +340,6 @@
     width: 100%;
     margin-bottom: 10px;
     background: #fff;
-    padding: 10px;
     border-radius: 8px;
 }
 
@@ -420,6 +419,43 @@
     text-align: center;
 }
 
+
+/**** section4 ****/
+.section4 {
+    margin-top: 100px;
+    width: 772px;
+    height: 385px;
+    padding-right: 65px;
+    padding-left: 65px;
+    background-image: url(/asset/img/964df397c603.jpg);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sec4in {
+    width: 782px;
+    height: 241px;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    margin-left: -5px;
+    margin-right: -5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.newp {
+    width: 381px;
+    height: 72px;
+    color: white;
+    text-align: center;
+
+
+}
 /***** footer *****/
 footer {
     width: 100%;
